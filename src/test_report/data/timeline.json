@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "L-SE-1188",
+    "children" : [ {
+      "name" : "7836-MainThread",
+      "children" : [ {
+        "name" : "Test_Sensor1.test_Sensor1_Valid",
+        "uid" : "8f7d2008ff5442ba",
+        "parentUid" : "ab7a9d82e0181d72559b47a387cf2f1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868222460,
+          "stop" : 1525868224486,
+          "duration" : 2026
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_get_node.test_node",
+        "uid" : "d00152187a07cbad",
+        "parentUid" : "ab7a9d82e0181d72559b47a387cf2f1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868228561,
+          "stop" : 1525868229856,
+          "duration" : 1295
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_Sensor1.test_Sensor1_Invalid_length",
+        "uid" : "815d994bae21898d",
+        "parentUid" : "ab7a9d82e0181d72559b47a387cf2f1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868226542,
+          "stop" : 1525868228551,
+          "duration" : 2009
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_Sensor1.test_Sensor1_Invalid",
+        "uid" : "a50c995e66bedc3b",
+        "parentUid" : "ab7a9d82e0181d72559b47a387cf2f1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868224496,
+          "stop" : 1525868226512,
+          "duration" : 2016
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab7a9d82e0181d72559b47a387cf2f1d"
+    } ],
+    "uid" : "aa067a32338a4baa31a9cb0f702a2b39"
+  } ]
+}

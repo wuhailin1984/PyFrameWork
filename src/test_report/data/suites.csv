@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","src.test_case.test_SesnsorInteraction.Test_Sensor1.test_Sensor1_Valid","2026",""
+"passed","src.test_case.test_get_node.Test_get_node.test_node","1295",""
+"passed","src.test_case.test_SesnsorInteraction.Test_Sensor1.test_Sensor1_Invalid_length","2009",""
+"passed","src.test_case.test_SesnsorInteraction.Test_Sensor1.test_Sensor1_Invalid","2016",""

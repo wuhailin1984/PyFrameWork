@@ -1,0 +1,5 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Feature:Communication with sensor1","User story: Valid data","0","0","1","0","0"
+"","Feature1","Story1","0","0","1","0","0"
+"","Feature:Communication with sensor1","User story: Invalid data length","0","0","1","0","0"
+"","Feature:Communication with sensor1","User story: Invalid data","0","0","1","0","0"

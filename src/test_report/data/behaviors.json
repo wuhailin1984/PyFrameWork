@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Feature:Communication with sensor1",
+    "children" : [ {
+      "name" : "User story: Valid data",
+      "children" : [ {
+        "name" : "Test_Sensor1.test_Sensor1_Valid",
+        "uid" : "8f7d2008ff5442ba",
+        "parentUid" : "e46ba422018c4fbadaf07f1b66171a99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868222460,
+          "stop" : 1525868224486,
+          "duration" : 2026
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e46ba422018c4fbadaf07f1b66171a99"
+    }, {
+      "name" : "User story: Invalid data",
+      "children" : [ {
+        "name" : "Test_Sensor1.test_Sensor1_Invalid",
+        "uid" : "a50c995e66bedc3b",
+        "parentUid" : "9f15592792980c73dd1c35aa79d5a1e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868224496,
+          "stop" : 1525868226512,
+          "duration" : 2016
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f15592792980c73dd1c35aa79d5a1e0"
+    }, {
+      "name" : "User story: Invalid data length",
+      "children" : [ {
+        "name" : "Test_Sensor1.test_Sensor1_Invalid_length",
+        "uid" : "815d994bae21898d",
+        "parentUid" : "0dec30be78bb4b4ee39ccb9f57cfdb9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868226542,
+          "stop" : 1525868228551,
+          "duration" : 2009
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0dec30be78bb4b4ee39ccb9f57cfdb9e"
+    } ],
+    "uid" : "b464968d4d78a9d38b8c2a8ebeaa6372"
+  }, {
+    "name" : "Feature1",
+    "children" : [ {
+      "name" : "Story1",
+      "children" : [ {
+        "name" : "Test_get_node.test_node",
+        "uid" : "d00152187a07cbad",
+        "parentUid" : "e42aa223a36bea1f5194f5ceed60a2e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1525868228561,
+          "stop" : 1525868229856,
+          "duration" : 1295
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e42aa223a36bea1f5194f5ceed60a2e4"
+    } ],
+    "uid" : "8ecdefebaa27a0a49301cf5544f63110"
+  } ]
+}
