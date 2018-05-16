@@ -11,6 +11,8 @@ class Test_Sensor1(object):
     def BeforeTest(self):
         i=0
 
+        
+
     @allure.feature('Feature:Communication with sensor1')
     @allure.story('User story: Valid data')
     def test_Sensor1_Valid(self):
