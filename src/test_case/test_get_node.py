@@ -19,3 +19,6 @@ class Test_get_node(object):
         res = requests.get(url).json()
         assert res['id'] == 90
         assert res['name'] == 'python'
+        print(res['name'])
+
+    #get_excel_data.read_requestdata("test_get_node")
