@@ -7,7 +7,7 @@ Created on 2018年5月7日
 '''
 import xlrd
 #file path
-file_home = "C:/Users/hwu/PycharmProjects/MyFrameWork/src/test_data/"
+file_home = "../test_data/"
 #file name
 Testdata_p = xlrd.open_workbook(file_home+'data.xlsx') #read data
 table = Testdata_p.sheets()[0] #choose sheet
