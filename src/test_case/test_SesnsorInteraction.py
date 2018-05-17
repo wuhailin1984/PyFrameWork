@@ -12,7 +12,7 @@ class Test_Sensor1(object):
     @allure.feature('Feature:Communication with sensor1')
     @allure.story('User story: Valid data')
     def test_Sensor1_Valid(self):
-        soc = ClassSocketClient("Sensor1", "10.46.40.149", 3001)
+        soc = ClassSocketClient("Sensor1", "35.204.196.49", 3001)
         dataBytes = bytearray()
         dataBytes.append(0x88)
         dataBytes.append(0x5C)
@@ -34,7 +34,7 @@ class Test_Sensor1(object):
     @allure.story('User story: Invalid data')
     def test_Sensor1_Invalid(self):
         #soc = ClassSocketClient("Sensor1", "127.0.0.1", 3001)
-        soc = ClassSocketClient("Sensor1", "10.46.40.149", 3001)
+        soc = ClassSocketClient("Sensor1", "35.204.196.49", 3001)
         dataBytes = bytearray()
         dataBytes.append(0x81)
         dataBytes.append(0x5C)
@@ -58,7 +58,7 @@ class Test_Sensor1(object):
     @allure.feature('Feature:Communication with sensor1')
     @allure.story('User story: Invalid data length')
     def test_Sensor1_Invalid_length(self):
-        soc = ClassSocketClient("Sensor1", "10.46.40.149", 3001)
+        soc = ClassSocketClient("Sensor1", "35.204.196.49", 3001)
         dataBytes = bytearray()
         dataBytes.append(0x81)
         dataBytes.append(0x5C)
