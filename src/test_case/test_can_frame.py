@@ -15,7 +15,7 @@ class Test_Sensor1(object):
     @allure.feature('Feature:Communication with virtual can0')
     @allure.story('User story: Valid data')
     def test_Can0_Valid(self):
-        soc = ClassCanSocketClient("vcan0","Vcan0")
+        soc = ClassCanSocketClient("vcan0","vcan0")
         fmt = "<IB3x8s"
         can_id = 0x1af0 | socket.CAN_EFF_FLAG
         can_pkt = struct.pack(fmt, can_id, len(b"hello"), b"hello")
