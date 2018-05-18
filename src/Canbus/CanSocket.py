@@ -7,10 +7,10 @@ class ClassCanSocketClient(object):
 
     def __init__(self, CanClientName,CanInterfaceName):
         ClassCanSocketClient.clientName = CanClientName
-        sock = socket.socket(socket.PF_CAN, socket.SOCK_RAW, socket.CAN_RAW)
+        self.sock = socket.socket(socket.PF_CAN, socket.SOCK_RAW, socket.CAN_RAW)
         interface = CanInterfaceName
         try:
-            sock.bind((interface,))
+            self.sock.bind((interface,))
         except OSError:
             sys.stderr.write("Could not bind to interface '%s'\n" % interface)
             # do something about the error...
