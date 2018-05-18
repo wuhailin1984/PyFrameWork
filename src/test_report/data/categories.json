@@ -1,5 +1,41 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'Wrong message' in ''",
+      "children" : [ {
+        "name" : "Test_Sensor1.test_Sensor1_Invalid_length",
+        "uid" : "b1b48f7f04312817",
+        "parentUid" : "a6bac79c1a5ea01258d4db301777951b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1526564205016,
+          "stop" : 1526564212204,
+          "duration" : 7188
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6bac79c1a5ea01258d4db301777951b"
+    }, {
+      "name" : "AttributeError: module 'socket' has no attribute 'PF_CAN'",
+      "children" : [ {
+        "name" : "Test_Sensor1.test_Can0_Valid",
+        "uid" : "8dbcf3e79b36dd4a",
+        "parentUid" : "115c84896789918da8eae9c9bb899840",
+        "status" : "failed",
+        "time" : {
+          "start" : 1526564212212,
+          "stop" : 1526564212232,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "115c84896789918da8eae9c9bb899840"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

@@ -1,2 +1,0 @@
-https://www.v2ex.com/
-https://www.v2ex.com/api/nodes/show.json?name=python

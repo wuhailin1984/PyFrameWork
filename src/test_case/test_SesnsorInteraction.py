@@ -21,7 +21,6 @@ class Test_Sensor1(object):
         dataBytes.append(0)
         soc.send(dataBytes)
         time.sleep(2)
-        soc.send(dataBytes)
 
         recv = soc.recv()
         result = recv.decode(encoding='utf-8')
@@ -46,7 +45,6 @@ class Test_Sensor1(object):
 
         soc.send(dataBytes)
         time.sleep(2)
-        soc.send(dataBytes)
 
         recv = soc.recv()
         result = recv.decode(encoding='utf-8')
@@ -67,7 +65,6 @@ class Test_Sensor1(object):
 
         soc.send(dataBytes)
         time.sleep(2)
-        soc.send(dataBytes)
 
         recv = soc.recv()
         result = recv.decode(encoding='utf-8')

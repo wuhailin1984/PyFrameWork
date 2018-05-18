@@ -1,15 +1,26 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "8fa3f6b92bde091260de90519739f42c",
     "name" : "src.test_case.test_SesnsorInteraction",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "a6dc72ec9b54c186d227b783f7283586",
+    "name" : "src.test_case.test_can_frame",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
     }
   }, {
     "uid" : "888b41e77ccba335fb1b0e5c5b4a2544",
