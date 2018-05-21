@@ -1,2 +1,4 @@
 .idea/* linguist-vendored
 src/__pycache__/* linguist-vendored
+src/test_data/* linguist-vendored
+src/test_report/* linguist-vendored
