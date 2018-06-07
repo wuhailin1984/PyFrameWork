@@ -1,5 +1,5 @@
 import socket, sys
-
+import select
 
 class ClassCanSocketClient(object):
     """Common base class for can socket client"""
@@ -20,7 +20,11 @@ class ClassCanSocketClient(object):
         self.sock.send(data)
 
     def recv(self):
-        return self.sock.recv(1024)
+
+        ready = select.select([self.sock], [], [], 5)
+        if ready[0]:
+            return (self.sock.recv(100))
+        return b""
 
     def close(self):
         self.sock.close()
