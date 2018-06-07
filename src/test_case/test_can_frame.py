@@ -23,7 +23,7 @@ class Test_Sensor1(object):
         soc.send(can_pkt)
         print(can_pkt)
         rec_data=soc.recv()
-        rec_data_tuple=struct.unpacK(fmt,rec_data)
+        rec_data_tuple=struct.unpack(fmt,rec_data)
         data1=rec_data_tuple[0]
         data2 = rec_data_tuple[1]
         data3 = rec_data_tuple[2]
