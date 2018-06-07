@@ -22,7 +22,7 @@ class ClassSocketClient(object):
     def recv(self):
         ready = select.select([self.sock], [], [], 5)
         if ready[0]:
-            return(self.sock.recv(100))
+            return self.sock.recv(100)
         return  b""
 
 

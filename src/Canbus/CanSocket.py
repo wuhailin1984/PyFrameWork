@@ -20,9 +20,8 @@ class ClassCanSocketClient(object):
         self.sock.send(data)
 
     def recv(self):
-
-        ready = select.select([self.sock], [], [], 5)
-        if ready[0]:
+        readable, writeable, exceptional = select.select([self.sock], [], [], 5)
+        if readable:
             return (self.sock.recv(100))
         return b""
 
