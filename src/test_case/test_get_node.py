@@ -16,9 +16,13 @@ class Test_get_node(object):
         #path = 'api/nodes/show.json?name=python'
         #url = self.domain + path
         url = get_excel_data.read_requestdata("test_get_node")
-        res = requests.get(url).json()
-        assert res['id'] == 90
-        assert res['name'] == 'python'
-        print(res['name'])
+        if url!="":
+            res = requests.get(url).json()
+            assert res['id'] == 90
+            assert res['name'] == 'python'
+            print(res['name'])
+        else:
+            print("couldn't find test data")
 
-    #get_excel_data.read_requestdata("test_get_node")
+#ts=Test_get_node()
+#ts.test_node()
